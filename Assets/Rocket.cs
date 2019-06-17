@@ -20,15 +20,15 @@ public class Rocket : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ProcessRemoteInput();
+        Thrust();
+        Rotate();
     }
-
-    private void ProcessRemoteInput()
+    private void Thrust()
     {
         // Thrust if space is down
         if (Input.GetKey(KeyCode.Space))
         {
-            rigidBody.AddRelativeForce(Vector3.up);
+            rigidBody.AddRelativeForce(Vector3.up * 2.5f);
             if (!audioSource.isPlaying)
             {
                 audioSource.Play();
@@ -38,8 +38,12 @@ public class Rocket : MonoBehaviour
         {
             audioSource.Stop();
         }
-
-
+    }
+    private void Rotate()
+    {
+        // Disable Unity Physics engine on object before rotation
+        rigidBody.freezeRotation = true;
+        
         // Can only rotate one way at a time.
         if (Input.GetKey(KeyCode.A))
         {
@@ -50,8 +54,7 @@ public class Rocket : MonoBehaviour
             this.transform.Rotate(Time.deltaTime * thrustSpeed * Vector3.back);
         }
         
-        
-
-
+        // Resume physics calculation on object after rotation.
+        rigidBody.freezeRotation = false;
     }
 }
