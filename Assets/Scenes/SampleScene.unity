@@ -193,10 +193,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1612847569030774221, guid: cf3328e3e3e49894b9f06f102a7455f6,
+    - target: {fileID: 8548787875757510420, guid: cf3328e3e3e49894b9f06f102a7455f6,
         type: 3}
-      propertyPath: thrustSpeed
-      value: 75
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf3328e3e3e49894b9f06f102a7455f6, type: 3}
@@ -211,6 +211,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.w
+      value: 2.17e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
+        type: 3}
+      propertyPath: m_BoundingSphereOverride.z
+      value: 1.39e-43
       objectReference: {fileID: 0}
     - target: {fileID: 5150824628389771210, guid: 760d54007ea08cb4c807da9d46163d9a,
         type: 3}
@@ -266,21 +281,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -33.231995
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.w
-      value: 2.17e-43
-      objectReference: {fileID: 0}
-    - target: {fileID: 5150824628389771211, guid: 760d54007ea08cb4c807da9d46163d9a,
-        type: 3}
-      propertyPath: m_BoundingSphereOverride.z
-      value: 1.39e-43
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 760d54007ea08cb4c807da9d46163d9a, type: 3}
