@@ -277,21 +277,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1612847569030774221, guid: cf3328e3e3e49894b9f06f102a7455f6,
-        type: 3}
-      propertyPath: thrustSpeed
-      value: 250
-      objectReference: {fileID: 0}
-    - target: {fileID: 1612847569030774220, guid: cf3328e3e3e49894b9f06f102a7455f6,
-        type: 3}
-      propertyPath: m_Drag
-      value: 0.05
-      objectReference: {fileID: 0}
-    - target: {fileID: 1612847569030774220, guid: cf3328e3e3e49894b9f06f102a7455f6,
-        type: 3}
-      propertyPath: m_AngularDrag
-      value: 0.1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf3328e3e3e49894b9f06f102a7455f6, type: 3}
 --- !u!1001 &5150824629028013393
@@ -498,11 +483,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2206009921676972588, guid: 7a5087e574fa78e418f9825fc33dc260,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 249.67
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a5087e574fa78e418f9825fc33dc260, type: 3}
